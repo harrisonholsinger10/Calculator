@@ -1,11 +1,4 @@
-## Building Javascript Calculator
+## Javascript Calculator
 
 
-### Getting Started
-
-Open your **terminal** and run the following command.
-
-```
-git clone https://github.com/developermithu/javascript-calculator
-cd javascript-calculator
-```
+Using HTML, CSS, and Javascript
