@@ -1,7 +1,7 @@
 body {
   text-align: center;
   margin: 0;
-  background: #bf4d5d;
+  background: rgb(0, 0, 25);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,32 +26,32 @@ body {
   border-radius: 5px;
   color: #e0e1dd;
   background-color: rgba(13, 27, 42, 0.3);
-  border: none;
+  border-color: white;
   box-sizing: border-box;
 }
 
 .operator {
-  color: #219ebc;
+  color: white;
+  background-color: darkorange;
 }
 
-#ac {
-  color: #bf4d5d;
-}
-
-.equal {
-  width: calc(50% - 10px);
+.toprow {
+  width: calc(25% - 10px);
+  color: white;
+  background-color: dimgrey;
 }
 
 button {
   width: calc(25% - 10px);
   height: 50px;
+  font-weight: bold;
   font-size: 20px;
   margin: 10px 5px;
-  border: none;
+  border-color: black;
   border-radius: 5px;
   float: left;
-  background-color: rgb(13, 27, 42);
-  color: #e0e1dd;
+  background-color: darkgrey;
+  color: white;
   -webkit-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
   box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
@@ -59,6 +59,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  filter: brightness(85%);
 }
 
 button:active {
@@ -67,19 +68,3 @@ button:active {
     0 1.5px 1.5px rgba(0, 0, 0, 0.23);
 }
 
-footer {
-  position: absolute;
-  bottom: 60px;
-  font-size: 18px;
-  color: #0d1b2a;
-}
-
-footer a {
-  color: #0d1b2a;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}

@@ -9,8 +9,12 @@ buttons.forEach((btn) => {
       display.value = "";
     } else if (btn.id == "de") {
       display.value = display.value.slice(0, -1);
+    } else if (btn.id == "+/-" && display.value == "") {
+      display.value = "-";
+    } else if (btn.id == "+/-") {
+      display.value = display.value * -1;
     } else {
-      display.value += btn.id;
+      display.value += " " + btn.id;
     }
   });
 });
