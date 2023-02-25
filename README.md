@@ -4,4 +4,5 @@
 Using HTML, CSS, and Javascript
 
 
-http://localhost:63342/javascript-calculator/index.html?_ijt=dq34vh1loe5tsjopq42a4poa6r 
+
+<img width="320" alt="Screen Shot 2023-02-25 at 3 02 01 PM" src="https://user-images.githubusercontent.com/115578965/221377297-fffa921b-085c-4b01-8178-59c0c64e549b.png">
